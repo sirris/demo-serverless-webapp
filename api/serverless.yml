@@ -18,8 +18,8 @@ custom:
       appClient: CognitoUserPoolClient
       s3bucket: disabled
   fullstack:
-    # domain: my-custom-domain.com
-    # certificate: arn:aws:acm:us-east-1:...     # The ARN for the SSL cert to use form AWS CertificateManager
+    domain: demo.security.denbot.co
+    certificate: arn:aws:acm:us-east-1:564006752217:certificate/788aca6a-2730-475e-a01b-f24aaac5ae97     # The ARN for the SSL cert to use form AWS CertificateManager
     bucketName: roomba-demo-${self:custom.stage}                  # Unique name for the S3 bucket to host the client assets
     distributionFolder: ../frontend/build            # Path to the client assets to be uploaded to S3
     indexDocument: index.html                  # The index document to use
