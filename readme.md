@@ -1,4 +1,4 @@
-# Demonstrating a Serverless Reference Architecture for a WebApp, using AWS.
+# Demonstrating a Secure Serverless Reference Architecture for a WebApp, using AWS.
 The goal of the repo is to illustrate how one can deploy a single page web application (SPA) with a serverless backend.
 
 This project illustrates how to leverage existing AWS services to build a scalable, robust and secure SPA that is easy to setup and deploy.
