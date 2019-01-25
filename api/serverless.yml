@@ -29,9 +29,9 @@ custom:
     clientCommand: npm run build                   # Command to generate the client assets. Defaults to doing nothing
     clientSrcPath: ../frontend                      # The path to where you want to run the clientCommand
     # waf: 00000000-0000-0000-0000-000000000000  # ID of the Web Application Firewall. Defaults to not used
-    # logging:
-    #   bucket: my-bucket.s3.amazonaws.com
-    #   prefix: my-prefix
+    logging:
+      bucket: accesslogs-sirris-cloud.s3.amazonaws.com
+      prefix: ${self:custom.appName}-${self:custom.stage}
 
 provider:
   name:                    aws
